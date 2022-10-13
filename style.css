@@ -23,7 +23,7 @@ body {
     width: 100%;
     background: linear-gradient(180deg, #050B3A 100%, 35%, #00092B 50%);
     height: 600px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'Sans Serif';
 }
 
 .hr , hr{
@@ -44,7 +44,7 @@ body {
 
 .moon-ligth-two {
     position: absolute;
-    left: 40%;
+    left: 55%;
 }
 
 .monn {
@@ -57,7 +57,7 @@ body {
 }
 
 a.navbar-brand {
-    font-family: 'Covered By Your Grace';
+    font-family: 'Covered By Your Grace', 'Sans Serif';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -68,9 +68,9 @@ a.navbar-brand {
 a.navbar-brand:hover {
     color: #FFFFFF;
 }
-
+/* 
 a.nav-link {
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', 'Sans Serif';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -81,7 +81,7 @@ a.nav-link {
 
 a.nav-link:hover {
     color: white;
-}
+} */
 
 .btn-wht {
     width: 148px;
@@ -89,8 +89,8 @@ a.nav-link:hover {
     color: white;
     text-decoration: none;
     border: none;
-    border-radius: 5px;
-    background-image: linear-gradient(90deg, #5611D9 0%, #5611D9 100%);
+    border-radius: 3px;
+    background-image: linear-gradient(90deg, #158f56 0%, #91a00d 100%);
 }
 
 .title {
@@ -105,7 +105,7 @@ h5#hello {
 }
 
 .paragraph {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'Sans Serif';
     font-size: 20px;
     margin-top: 20px;
 }
@@ -140,12 +140,12 @@ h5#hello {
 
 .sobre .title p {
     font-size: 16px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'Sans Serif';
     font-weight: 200;
 }
 .sub{
     font-size: 22px;
-    font-family: 'DM Sans', 'sans-serif';
+    font-family: 'DM Sans', 'Sans Serif';
 }
 .sub strong {
     color: #F0A304;
@@ -261,63 +261,86 @@ h5#hello {
 .newsletter {
     width: 100%;
     margin: 0 auto;
-    height: 330px;
+    height: 375px;
     margin-top: 100px;
 }
-
-.letter {
+#new{
+    font-size: 42px;
+}
+.formulario{
     background-color: #03BEE9;
     border-radius: 10px;
-    height: 180px;
+    height: 200px;
     position: relative;
     border: 1px solid;
     background-color: transparent;
     border-color: #657cce;
     margin-top: 50px;
     border-image: linear-gradient(90deg, #41207C, #7D42F5) 1;
+    font-family: 'DM Sans', 'Sans Serif';    
 }
 
-.letter h5 {
-    position: absolute;
-    text-align: start;
-    margin-top: 30px;
-    margin-left: 20px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
-}
-
-#new {
-    font-size: 42px;
-}
-
-.letter p {
-    position: absolute;
-    text-align: start;
-    margin-top: 60px;
-    margin-left: 20px;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 14px;
-}
-
-input.email {
+input.form-control.me-2 {
     width: 500px;
     height: 42px;
     font-size: 16px;
     color: white;
-    font-family: 'DM Sans', sans-serif;
-    margin-top: 90px;
+    font-family: 'DM Sans', 'Sans Serif';
     background-color: transparent;
     border: 1px solid;
-    border-image: linear-gradient(90deg, #411874, #5611D9)1;
-    display: flex;
+    border-image: linear-gradient(90deg, #411874, #5611D9) 1;
     margin-left: 20px;
 }
-input.email::selection {
+input.form-control.me-2::selection {
     font-size: 16px;
     color: white;
     background-color: transparent;
     border: 3px solid;
     border-image: linear-gradient(90deg, #411874, #5611D9)1;
+}
+input#exampleFormControlInput1 {
+    width: 500px;
+    height: 42px;
+    font-size: 16px;
+    color: white;
+    font-family: 'DM Sans', 'Sans Serif';
+    background-color: transparent;
+    border: 1px solid;
+    border-image: linear-gradient(90deg, #411874, #5611D9)1;
+    margin-left: 20px;
+}
+
+label.form-label {
+    font-size: 15px;
+    display: flex;
+    margin-left: 20px;
+}
+
+textarea#exampleFormControlTextarea1{
+    width: 700px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid;
+    border-image: linear-gradient(90deg, #411874, #5611D9) 1;
+    margin-left: 20px;
+}
+button.btn.btn-enviar {
+    height: 42px;
+    width: 55px;
+    border: 1px solid;
+    background-image: linear-gradient(to left, #41207C, #7D42F5);
+
+}
+button.btn.btn-enviar:hover {
+    height: 42px;
+    width: 55px;
+    background-image: linear-gradient(to left, #4f2b8f, #571bce);
+}
+button.btn.btn-enviar i{
+    color: #fff;
+    font-size: 30px;
+
 }
 .newsletter img {
     position: absolute;
@@ -344,7 +367,6 @@ input.email::selection {
     border-image: linear-gradient(90deg, #411874, #5611D9)1;
     width: 100%;
 }
-
 .card-canais a i {
     color: var(--blue-color);
 }
@@ -354,14 +376,14 @@ footer p{
     text-align: center;
     color: white;
     font-size: 18px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 footer p strong{
     color: var(--yellow-color);
 }
 footer .terrain{
     width: 100%;
-       margin-top: -256px;
+/*  margin-top: -256px; */
 }
 
 

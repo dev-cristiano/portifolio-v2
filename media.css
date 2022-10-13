@@ -1,19 +1,6 @@
 /* Media Queries */
-@media only screen and (min-width: 320px) {
-   .sun{
-    /* display: none; */
+/* @media only screen and (max-width: 600px) {
+   body {
+     background-color: lightblue;
    }
-   input.email {
-    width: 300px;
-   }
-   .newsletter img {
-    width: 100px;
-    margin-left: 130px;
-   }
-   h5#hello{
-    font-size: 42px;
-   }
-   /* .sobre p{
-    font-size: 12px;
-   }  */
-  }
+ } */
