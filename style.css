@@ -26,7 +26,8 @@ body {
     font-family: 'DM Sans', 'Sans Serif';
 }
 
-.hr , hr{
+.hr,
+hr {
     width: 90%;
     margin: 0 auto;
     margin-top: 50px;
@@ -42,10 +43,11 @@ body {
     position: relative;
 }
 
-.moon-ligth-two {
+/* .moon-ligth-two {
     position: absolute;
     left: 55%;
-}
+    
+} */
 
 .monn {
     position: relative;
@@ -68,6 +70,7 @@ a.navbar-brand {
 a.navbar-brand:hover {
     color: #FFFFFF;
 }
+
 /* 
 a.nav-link {
     font-family: 'DM Sans', 'Sans Serif';
@@ -90,7 +93,7 @@ a.nav-link:hover {
     text-decoration: none;
     border: none;
     border-radius: 3px;
-    background-image: linear-gradient(90deg, #158f56 0%, #91a00d 100%);
+    background-image: linear-gradient(90deg, #4620af 0%, #230da0 100%);
 }
 
 .title {
@@ -121,10 +124,12 @@ h5#hello {
     color: #fff;
     margin-top: 120px;
 }
+
 .btn-more:hover {
-     background-image: linear-gradient(to left, #41207C, #7D42F5);
-     transition: all .4s ease-in-out;
+    background-image: linear-gradient(to left, #41207C, #7D42F5);
+    transition: all .4s ease-in-out;
 }
+
 .sobre {
     width: 90%;
     height: 200px;
@@ -143,10 +148,12 @@ h5#hello {
     font-family: 'DM Sans', 'Sans Serif';
     font-weight: 200;
 }
-.sub{
+
+.sub {
     font-size: 22px;
     font-family: 'DM Sans', 'Sans Serif';
 }
+
 .sub strong {
     color: #F0A304;
     font-weight: bold;
@@ -229,7 +236,8 @@ h5#hello {
     border-image: linear-gradient(180deg, #00934C, #FBEFEA) 1;
     border-radius: 10px;
 }
-.card3:hover{
+
+.card3:hover {
     width: 250px;
     height: 300px;
     background-color: #181350;
@@ -239,6 +247,7 @@ h5#hello {
     border-radius: 10px;
     transform: scale(1.1);
 }
+
 .card3 h5 {
     color: #FFEA8A;
     margin-top: 150px;
@@ -264,10 +273,12 @@ h5#hello {
     height: 375px;
     margin-top: 100px;
 }
-#new{
+
+#new {
     font-size: 42px;
 }
-.formulario{
+
+.formulario {
     background-color: #03BEE9;
     border-radius: 10px;
     height: 200px;
@@ -277,11 +288,11 @@ h5#hello {
     border-color: #657cce;
     margin-top: 50px;
     border-image: linear-gradient(90deg, #41207C, #7D42F5) 1;
-    font-family: 'DM Sans', 'Sans Serif';    
+    font-family: 'DM Sans', 'Sans Serif';
 }
 
 input.form-control.me-2 {
-    width: 500px;
+    width: 60%;
     height: 42px;
     font-size: 16px;
     color: white;
@@ -291,6 +302,7 @@ input.form-control.me-2 {
     border-image: linear-gradient(90deg, #411874, #5611D9) 1;
     margin-left: 20px;
 }
+
 input.form-control.me-2::selection {
     font-size: 16px;
     color: white;
@@ -298,8 +310,9 @@ input.form-control.me-2::selection {
     border: 3px solid;
     border-image: linear-gradient(90deg, #411874, #5611D9)1;
 }
+
 input#exampleFormControlInput1 {
-    width: 500px;
+    width: 60%;
     height: 42px;
     font-size: 16px;
     color: white;
@@ -316,15 +329,6 @@ label.form-label {
     margin-left: 20px;
 }
 
-textarea#exampleFormControlTextarea1{
-    width: 700px;
-    font-size: 16px;
-    color: white;
-    background-color: transparent;
-    border: 3px solid;
-    border-image: linear-gradient(90deg, #411874, #5611D9) 1;
-    margin-left: 20px;
-}
 button.btn.btn-enviar {
     height: 42px;
     width: 55px;
@@ -332,16 +336,19 @@ button.btn.btn-enviar {
     background-image: linear-gradient(to left, #41207C, #7D42F5);
 
 }
+
 button.btn.btn-enviar:hover {
     height: 42px;
     width: 55px;
     background-image: linear-gradient(to left, #4f2b8f, #571bce);
 }
-button.btn.btn-enviar i{
+
+button.btn.btn-enviar i {
     color: #fff;
     font-size: 30px;
 
 }
+
 .newsletter img {
     position: absolute;
     width: 150px;
@@ -350,16 +357,17 @@ button.btn.btn-enviar i{
 }
 
 /* Canais */
-.canais{
+.canais {
     display: inline-block;
     width: 100%;
     margin-top: 50px;
 }
+
 .canais h5 {
     font-size: 42px;
 }
 
-.card-canais{
+.card-canais {
     margin-top: 50px;
     display: inline-block;
     background-color: transparent;
@@ -367,35 +375,40 @@ button.btn.btn-enviar i{
     border-image: linear-gradient(90deg, #411874, #5611D9)1;
     width: 100%;
 }
+
 .card-canais a i {
     color: var(--blue-color);
 }
 
 /* Footer */
-footer p{
+footer p {
     text-align: center;
     color: white;
     font-size: 18px;
     margin-top: 50px;
 }
-footer p strong{
+
+footer p strong {
     color: var(--yellow-color);
 }
-footer .terrain{
+
+footer .terrain {
     width: 100%;
-/*  margin-top: -256px; */
+    /*  margin-top: -256px; */
 }
 
 
 
 
 ::-webkit-scrollbar {
-    width:10px;
+    width: 10px;
     height: 10px;
 }
+
 ::-webkit-scrollbar-track {
     background: var(--primary-color);
-} 
+}
+
 ::-webkit-scrollbar-thumb {
     background: #2e9dd8;
 }
